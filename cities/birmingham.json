@@ -1,0 +1,126 @@
+{
+  "name": "Birmingham",
+  "postcode": "B4 7DL",
+  "testCentres": [
+    {
+      "name": "Birmingham (Garretts Green)",
+      "passRate": "43.6",
+      "distance": 4.767003603076919,
+      "mapDetails": {
+        "placeId": "ChIJldK_AICwcEgR2-SLap5P9Nw",
+        "address": "Granby Ave, Garrett's Green, Birmingham B33 0SJ, United Kingdom",
+        "name": "Garretts Green Test Centre",
+        "lat": 52.4759864,
+        "lng": -1.7783739,
+        "rating": 3.7,
+        "url": "https://maps.google.com/?cid=15921438124472526043",
+        "userRatingsTotal": 58
+      }
+    },
+    {
+      "name": "Birmingham (Kings Heath)",
+      "passRate": "42.1",
+      "distance": 5.493458409608323,
+      "mapDetails": {
+        "placeId": "ChIJD1VCmci-cEgR77E87hMKPNg",
+        "address": "955 Alcester Rd S, Birmingham B14 5JA, United Kingdom",
+        "name": "Birmingham Kings Heath Driving Test Centre",
+        "lat": 52.4067573,
+        "lng": -1.8873253,
+        "rating": 3.6,
+        "url": "https://maps.google.com/?cid=15581339891512685039",
+        "userRatingsTotal": 81
+      }
+    },
+    {
+      "name": "Birmingham (Kingstanding)",
+      "passRate": "36.7",
+      "distance": 4.000310419795066,
+      "mapDetails": {
+        "placeId": "ChIJHbuU-WOjcEgRtqaHZnumMto",
+        "address": "205 Birdbrook Rd, Birmingham B44 9UL, United Kingdom",
+        "name": "Birmingham Kingstanding Driving Test Centre",
+        "lat": 52.5441402,
+        "lng": -1.890445,
+        "rating": 3.9,
+        "url": "https://maps.google.com/?cid=15722812298035177142",
+        "userRatingsTotal": 116
+      }
+    },
+    {
+      "name": "Birmingham (Shirley)",
+      "passRate": "52.2",
+      "distance": 6.287245676525351,
+      "mapDetails": {
+        "placeId": "ChIJWaNhJae5cEgRb7RLuTDHiaE",
+        "address": "374 Stratford Rd, Shirley, Solihull B90 4AQ, United Kingdom",
+        "name": "Shirley Driving Test Centre",
+        "lat": 52.4051825,
+        "lng": -1.8225654,
+        "rating": 3.7,
+        "url": "https://maps.google.com/?cid=11640053723996861551",
+        "userRatingsTotal": 44
+      }
+    },
+    {
+      "name": "Birmingham (South Yardley)",
+      "passRate": "36.7",
+      "distance": 4.019107914150748,
+      "mapDetails": {
+        "placeId": "ChIJHUTeU0e6cEgRM9dvMwTt1sw",
+        "address": "Driving Test Centre, Clay Ln, Birmingham B26 1EA, UK",
+        "name": "Driving Test Centre",
+        "lat": 52.45498449999999,
+        "lng": -1.8098702,
+        "rating": 0.0,
+        "url": "https://maps.google.com/?q=Driving+Test+Centre&ftid=0x4870ba4753de441d:0xccd6ed04336fd733",
+        "userRatingsTotal": 0
+      }
+    },
+    {
+      "name": "Birmingham (Sutton Coldfield)",
+      "passRate": "36.5",
+      "distance": 5.679981743492782,
+      "mapDetails": {
+        "placeId": "ChIJ7cilVwKlcEgRZ64gPe1-Icw",
+        "address": "31-33 Birmingham Rd, Sutton Coldfield B72 1QE, United Kingdom",
+        "name": "DVSA Theory Test Centre",
+        "lat": 52.558625,
+        "lng": -1.826348,
+        "rating": 3.0,
+        "url": "https://maps.google.com/?cid=14709177415366651495",
+        "userRatingsTotal": 23
+      }
+    },
+    {
+      "name": "Birmingham (Wyndley)",
+      "passRate": "54.5",
+      "distance": 4.687979677729207,
+      "mapDetails": {
+        "placeId": "ChIJZQwbgeSkcEgR6650dA7bWpo",
+        "address": "110-116 Boldmere Rd, Boldmere, Sutton Coldfield B73 5UB, UK",
+        "name": "110-116 Boldmere Rd",
+        "lat": 52.5471217,
+        "lng": -1.8411731,
+        "rating": 0.0,
+        "url": "https://maps.google.com/?q=110-116+Boldmere+Rd,+Boldmere,+The+Royal+Town+of+Sutton+Coldfield,+Sutton+Coldfield+B73+5UB,+UK&ftid=0x4870a4e4811b0c65:0x9a5adb0e7474aeeb",
+        "userRatingsTotal": 0
+      }
+    },
+    {
+      "name": "Wednesbury",
+      "passRate": "39.6",
+      "distance": 7.032517930498278,
+      "mapDetails": {
+        "placeId": "ChIJm07r2l-YcEgRVY5l3eqVSg8",
+        "address": "Knowles St, Wednesbury WS10 9HN, United Kingdom",
+        "name": "DVSA Driving Test Centre",
+        "lat": 52.5555689,
+        "lng": -2.0128767,
+        "rating": 2.8,
+        "url": "https://maps.google.com/?cid=1101857894814813781",
+        "userRatingsTotal": 85
+      }
+    }
+  ]
+}

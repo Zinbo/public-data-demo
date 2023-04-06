@@ -1,0 +1,36 @@
+{
+  "name": "Aberdeen",
+  "postcode": "AB24 5BA",
+  "testCentres": [
+    {
+      "name": "Aberdeen North",
+      "passRate": "57.3",
+      "distance": 2.4724386179137534,
+      "mapDetails": {
+        "placeId": "ChIJC3xww_sNhEgR7iXmPVZSNVA",
+        "address": "8GT, Balgownie Rd, Bridge of Don, Aberdeen, United Kingdom",
+        "name": "DVSA",
+        "lat": 57.1856443,
+        "lng": -2.0964023,
+        "rating": 4.1,
+        "url": "https://maps.google.com/?cid=5779616227159057902",
+        "userRatingsTotal": 7
+      }
+    },
+    {
+      "name": "Aberdeen South (Cove)",
+      "passRate": "64.5",
+      "distance": 4.274066387101663,
+      "mapDetails": {
+        "placeId": "ChIJTY7RiP4PhEgRDr0PT-qctJE",
+        "address": "Moss Rd, Aberdeen AB12 3GQ, United Kingdom",
+        "name": "DVSA Driving Test Centre",
+        "lat": 57.0884979,
+        "lng": -2.1077442,
+        "rating": 4.3,
+        "url": "https://maps.google.com/?cid=10499189161470180622",
+        "userRatingsTotal": 19
+      }
+    }
+  ]
+}
