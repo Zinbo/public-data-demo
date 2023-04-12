@@ -49,6 +49,13 @@ function MyApp({Component, pageProps}: AppProps) {
             <link rel="shortcut icon" href="/favicon.ico" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
 
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:url" content="https://public-data-demo.vercel.app" />
+            <meta name="twitter:title" content="Best Driving Test Pass Rates Near Me" />
+            <meta name="twitter:description" content="Give yourself the best opportunity to pass your driving test. Find the driving test centre that has the best pass rate near you. Find in locations such as Manchester, London, Birmingham, Newcastle, Leeds, Wales, Scotland, anywhere in the UK." />
+            <meta name="twitter:image" content="https://public-data-demo.vercel.app/icon-512x512.png" />
+            <meta name="twitter:creator" content="@shanepjennings" />
+
         </Head>
         <ThemeProvider theme={theme}>
             <Box sx={{display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
