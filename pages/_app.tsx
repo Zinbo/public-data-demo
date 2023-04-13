@@ -3,6 +3,7 @@ import type {AppProps} from 'next/app'
 import {Container, createTheme, ThemeProvider} from "@mui/material";
 import Head from "next/head";
 import Box from "@mui/material/Box";
+import Script from "next/script";
 
 const theme = createTheme({
     typography: {
@@ -28,6 +29,23 @@ const theme = createTheme({
 
 function MyApp({Component, pageProps}: AppProps) {
     return <>
+        <Script id="google-tag-manager" strategy="lazyOnload"
+                src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXX"/>
+        <Script id="google-analytics" strategy="lazyOnload">
+            {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-XXXXXX', {
+                    page_path: window.location.pathname,
+                    }); 
+            `}
+
+        </Script>
+        <Script
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXX"
+    crossOrigin="anonymous"/>
         <Head>
             <title>Best Driving Test Pass Rates Near Me</title>
             <meta name="description"
@@ -56,11 +74,7 @@ function MyApp({Component, pageProps}: AppProps) {
             <meta name="twitter:image" content="https://public-data-demo.vercel.app/icon-512x512.png" />
             <meta name="twitter:creator" content="@shanepjennings" />
 
-            <meta property="og:type" content="website" />
-            <meta property="og:title" content="Best Driving Test Pass Rates Near Me" />
-            <meta property="og:description" content="Give yourself the best opportunity to pass your driving test. Find the driving test centre that has the best pass rate near you. Find in locations such as Manchester, London, Birmingham, Newcastle, Leeds, Wales, Scotland, anywhere in the UK." />
-            <meta property="og:url" content="https://public-data-demo.vercel.app" />
-            <meta property="og:image" content="https://public-data-demo.vercel.app/icon-512x512.png" />
+
 
         </Head>
         <ThemeProvider theme={theme}>
